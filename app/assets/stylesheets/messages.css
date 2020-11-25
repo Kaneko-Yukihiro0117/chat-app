@@ -12,12 +12,40 @@
   background-color: #253141;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name a {
+  color: #FAFAFA;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.chat-create a {
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.chat-create {
+  font-size: 10px;
 }
 
 .side-under {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+
+.chat-room a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .max-chat {
